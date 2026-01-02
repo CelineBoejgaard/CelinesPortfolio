@@ -1,6 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .navn {
   display: block;
-  margin: auto;
+
   width: 40%;
 }
 
@@ -10,12 +16,8 @@ body {
 
 .diffcolor {
   background-color: #a33738;
-}
-
-.flowers {
-  size: 60%;
-  display: block;
-  margin: auto;
+  padding-left: 30px;
+  padding-bottom: 50px;
 }
 
 a {
@@ -29,27 +31,26 @@ a {
 
 h6 {
   font-family: "Inria Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   color: #fcf9f9;
   font-size: 24px;
   line-height: 1.5;
-  padding-top: 10px;
-  padding-bottom: 100px;
   font-weight: normal;
-  margin: 60px;
+  padding-bottom: 50px;
+  margin: 0;
 }
 
 p {
   font-family: "Inria Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   color: #333333;
   font-size: 24px;
   line-height: 1.5;
   padding-top: 10px;
   padding-bottom: 60px;
-  margin: 60px;
+  margin: 0;
 }
 
 h2 {
@@ -58,7 +59,7 @@ h2 {
   font-style: normal;
   color: #333333;
   font-size: 30px;
-  margin: 60px;
+
   padding-top: 100px;
 }
 
@@ -111,30 +112,54 @@ h3 {
 }
 /* Burger slut*/
 
-@media (min-width: 1700px) {
-  .navn {
-    position: fixed;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    padding-left: 10%;
+footer {
+  background-color: #44393c;
+}
+
+.textfooter {
+  padding-left: 30px;
+}
+
+@media (min-width: 1200px) {
+  .grid_1-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin-left: 7%;
+    margin-right: 7%;
   }
+
+  main {
+    padding-left: 0; /* or adjust */
+  }
+
+  .navn {
+    position: sticky; /* key: sticky inside main */
+    top: 50%; /* vertical center */
+    transform: translateY(-50%);
+    padding-left: 15%;
+    width: 40%;
+  }
+
   body {
     background-color: #f5eee5;
   }
 
   .itemsright {
-    width: 800px; /* set container width */
-    margin-left: auto; /* push container to the right */
-    margin-right: 10%;
-    text-align: left;
-    padding-bottom: 60px;
+    padding-left: 50%;
+    padding-bottom: 10%;
+    margin-right: 7%;
+    margin-top: -25%;
   }
 
   h2 {
     font-family: "Arial", sans-serif;
     margin-top: 60px;
     padding-top: 60px;
+  }
+
+  h6 {
+    padding: 0;
   }
 
   p {
@@ -149,11 +174,10 @@ h3 {
     padding: 40px 0; /* vertical spacing */
     box-sizing: border-box;
     height: 90vh;
-  }
-
-  .navn {
-    width: 20%;
-    padding-left: 20%;
+    padding-left: 50%;
+    padding-bottom: 7%;
+    padding-top: 7%;
+    padding-right: 7%;
   }
 
   .flowers {
@@ -209,4 +233,25 @@ h3 {
   }
 
   /* Burger slut*/
+
+  /* footer */
+  footer {
+    background-color: #44393c;
+  }
+  .footer-content {
+    max-width: 90%;
+    height: auto;
+    position: relative;
+  }
+  .textfooter {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* horizontal */
+  }
+  .flowerfooter {
+    display: block;
+    height: 40vh;
+    margin: 0 auto;
+  }
+  /* footer slut */
 }
