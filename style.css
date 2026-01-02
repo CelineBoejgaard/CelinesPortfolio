@@ -17,11 +17,15 @@ body {
 }
 
 .flowers2 {
-  max-width: 90%;
+  max-width: 100%;
   rotate: 20deg;
 }
 
 .flowersonlyondesktop {
+  display: none;
+}
+
+.flowerfooter {
   display: none;
 }
 
@@ -265,7 +269,7 @@ footer {
 }
 
 .textfooter {
-  padding-left: 30px;
+  padding: 30px;
 }
 
 @media (min-width: 1200px) {
@@ -308,6 +312,7 @@ footer {
     font-size: 24px;
     line-height: 1.5;
     margin: 0;
+    padding-bottom: 30px;
   }
 
   a {
@@ -344,6 +349,11 @@ footer {
     margin-top: -15%;
     margin-right: 10%;
   }
+  .everythingleft {
+    margin-right: 55%;
+    margin-top: -15%;
+    margin-left: 10%;
+  }
   .grid_1-222 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -355,7 +365,7 @@ footer {
   .flowers2 {
     size: 70%;
     margin-top: -15%;
-    margin-left: 10%;
+    margin-left: 5%;
   }
   .flowersother {
     size: 150%;

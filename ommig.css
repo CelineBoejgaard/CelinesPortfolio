@@ -22,11 +22,16 @@ body {
 
 a {
   font-family: "Inria Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   text-decoration: none;
   color: black;
   font-size: 25px;
+  margin-left: 50px;
+  display: inline-block; /* REQUIRED */
+  transition: transform 0.2s ease; /* smooth animation */
+  padding-top: 25px;
+  margin: 0;
 }
 
 h6 {
@@ -34,11 +39,13 @@ h6 {
   font-weight: 300;
   font-style: normal;
   color: #fcf9f9;
-  font-size: 24px;
+  font-size: 30px;
   line-height: 1.5;
   font-weight: normal;
   padding-bottom: 50px;
   margin: 0;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 p {
@@ -51,6 +58,8 @@ p {
   padding-top: 10px;
   padding-bottom: 60px;
   margin: 0;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 h2 {
@@ -59,8 +68,9 @@ h2 {
   font-style: normal;
   color: #333333;
   font-size: 30px;
-
   padding-top: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 h3 {
@@ -68,9 +78,11 @@ h3 {
   font-weight: 400;
   font-style: normal;
   color: #fcf9f9;
-  font-size: 30px;
-  margin: 60px;
+  font-size: 24px;
+  padding-bottom: 50px;
   padding-top: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 /* Burger */
@@ -117,7 +129,11 @@ footer {
 }
 
 .textfooter {
-  padding-left: 30px;
+  padding: 30px;
+}
+
+.flowerfooter {
+  display: none;
 }
 
 @media (min-width: 1200px) {
