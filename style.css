@@ -47,7 +47,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   color: #333333;
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
   margin-left: 50px;
 }
@@ -89,6 +89,8 @@ h6 {
   font-family: "Indie Flower", cursive;
   font-weight: 400;
   font-style: normal;
+  color: #fbfafa;
+  font-size: 24px;
 }
 
 p {
@@ -398,6 +400,23 @@ a:hover {
     margin-left: 7%;
     margin-right: 7%;
   }
+
+  /* footer */
+  footer {
+    background-color: #44393c;
+    margin-top: 5%;
+  }
+  .footer-content {
+    max-width: 90%;
+    height: auto;
+    position: relative;
+  }
+  .textfooter {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* horizontal */
+  }
+  /* footer slut */
 }
 
 .morespacebottom {
