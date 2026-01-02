@@ -1,0 +1,35 @@
+article [popover]::backdrop {
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.31);
+}
+
+[popover] {
+  max-height: 90vh;
+  max-width: 100ch;
+  width: 150vw;
+  margin: 0 auto;
+  padding: 50px;
+}
+[popover] {
+  opacity: 0;
+  transition: 0.6s allow-discrete;
+}
+
+:popover-open {
+  opacity: 1;
+  rotate: none;
+}
+
+.button2 {
+  background-color: #f5eee5;
+  border: 2px solid #951415;
+  color: #49433c;
+  text-align: center;
+  text-decoration: none;
+  width: 20%;
+  display: inline-block;
+  padding: 15px;
+  margin: 0 auto;
+  place-items: center;
+  font-size: 24px;
+}
