@@ -376,19 +376,6 @@ footer {
   .picture-slider {
     display: none;
   }
-  .picture-slider2 {
-    text-align: center;
-    display: flex;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    width: 100%;
-  }
-  .picture-slider2 img {
-    max-width: 100%;
-    height: auto;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
 
   .grid_1-22 {
     display: grid;

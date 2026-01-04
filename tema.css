@@ -26,10 +26,9 @@ article [popover]::backdrop {
   color: #49433c;
   text-align: center;
   text-decoration: none;
-  width: 20%;
-  display: inline-block;
+  width: 25%;
   padding: 15px;
-  margin: 0 auto;
+  margin: 60px;
   place-items: center;
   font-size: 24px;
 }
