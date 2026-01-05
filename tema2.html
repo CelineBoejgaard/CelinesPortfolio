@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="tema.css" />
-    <title></title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,6 +27,7 @@
     />
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="robots" content="noindex" />
+    <title>PORTFOLIO</title>
   </head>
   <body>
     <header class="header">
@@ -34,9 +35,9 @@
         <button class="burger" aria-label="Open menu">☰</button>
 
         <nav class="menu">
-          <a href="index.html">HJEM</a>
-          <a href="portfolio.html">PROJEKTER</a>
-          <a href="ommig.html">OM MIG </a>
+          <a href="index.html" class="mylink">HJEM</a>
+          <a href="portfolio.html" class="mylink">PROJEKTER</a>
+          <a href="ommig.html" class="mylink">OM MIG </a>
         </nav>
       </div>
     </header>
@@ -105,13 +106,18 @@
         </div>
       </details>
       <details>
-        <summary>Links</summary>
+        <summary>Alle Links</summary>
         <div class="content">
-          <p>Link til sitet</p>
-          <a
-            href="https://celineboejgaard.github.io/foersteproeve/min_computer.html"
-            >https://celineboejgaard.github.io/foersteproeve/min_computer.html</a
-          >
+          <div class="dropdown">
+            <button class="dropdown-btn">link til site →</button>
+            <div class="dropdown-content">
+              <a
+                href="https://celineboejgaard.github.io/foersteproeve/min_computer.html"
+                class="mylink2"
+                >https://celineboejgaard.github.io/foersteproeve/min_computer.html</a
+              >
+            </div>
+          </div>
         </div>
       </details>
     </main>

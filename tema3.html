@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="tema.css" />
-    <title></title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,6 +27,7 @@
     />
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="robots" content="noindex" />
+    <title>PORTFOLIO</title>
   </head>
   <body>
     <header class="header">
@@ -34,16 +35,17 @@
         <button class="burger" aria-label="Open menu">☰</button>
 
         <nav class="menu">
-          <a href="index.html">HJEM</a>
-          <a href="portfolio.html">PROJEKTER</a>
-          <a href="ommig.html">OM MIG </a>
+          <a href="index.html" class="mylink">HJEM</a>
+          <a href="portfolio.html" class="mylink">PROJEKTER</a>
+          <a href="ommig.html" class="mylink">OM MIG </a>
+        </nav>
         </nav>
       </div>
     </header>
     <main>
       <h1>TEMA 3</h1>
       <img src="img/flowers1.webp" alt="flowers" class="flowers" />
-      <div class="morespacebottom">
+      <section class="morespacebottom">
         <details>
           <summary>Løsning</summary>
           <div class="content">
@@ -146,31 +148,39 @@
             </p>
           </div>
         </details>
-        <details>
-          <summary>Links</summary>
+<details>
+          <summary>Alle Links</summary>
           <div class="content">
-            <p>Link til figma</p>
-            <a
-              href="https://www.figma.com/board/H6Q1fiek5WswfeSSH0d2Ex/Tema-3---sem1?node-id=0-1&p=f&t=PaMpbMlvUmPQ5Gi9-0"
+             <div class="dropdown">
+                <button class="dropdown-btn">link til Figma →</button>
+                <div class="dropdown-content">
+                   <a
+              href="https://www.figma.com/board/H6Q1fiek5WswfeSSH0d2Ex/Tema-3---sem1?node-id=0-1&p=f&t=PaMpbMlvUmPQ5Gi9-0" class="mylink2"
               >https://www.figma.com/board/H6Q1fiek5WswfeSSH0d2Ex/Tema-3---sem1?node-id=0-1&p=f&t=PaMpbMlvUmPQ5Gi9-0</a
             >
             <a
-              href="https://www.figma.com/design/7I24owQNlw74qXgiAmmwlK/Untitled?node-id=0-1&p=f&t=rzcPCejrNomFK7wq-0"
+              href="https://www.figma.com/design/7I24owQNlw74qXgiAmmwlK/Untitled?node-id=0-1&p=f&t=rzcPCejrNomFK7wq-0" class="mylink2"
               >https://www.figma.com/design/7I24owQNlw74qXgiAmmwlK/Untitled?node-id=0-1&p=f&t=rzcPCejrNomFK7wq-0</a
             >
-            <p>link til site</p>
-            <a
-              href="https://celineboejgaard.github.io/kodet_site-copy/index.html"
+                </div>
+              </div>
+               <div class="dropdown">
+                <button class="dropdown-btn">link til site →</button>
+                <div class="dropdown-content">
+                   <a
+              href="https://celineboejgaard.github.io/kodet_site-copy/index.html" class="mylink2"
               >https://celineboejgaard.github.io/kodet_site-copy/index.html</a
             >
-          </div>
+                </div>
+              </div>
+              </div>
         </details>
-      </div>
+      </section>
     </main>
     <footer>
       <section class="grid_1-3">
         <div class="textfooter">
-          <h6>Projekt lavet af<br />Celine Bøjgaard</h6>
+          <h4>Projekt lavet af<br />Celine Bøjgaard</h4>
         </div>
         <img src="img/flowerfooter.webp" alt="footer" class="flowerfooter" />
         <div class="textfooter">

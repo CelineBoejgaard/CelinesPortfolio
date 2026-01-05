@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title></title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,6 +26,7 @@
     />
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="robots" content="noindex" />
+    <title>PORTFOLIO</title>
   </head>
   <body>
     <header class="header">
@@ -33,143 +34,159 @@
         <button class="burger" aria-label="Open menu">☰</button>
 
         <nav class="menu">
-          <a href="index.html">HJEM</a>
-          <a href="portfolio.html">PROJEKTER</a>
-          <a href="ommig.html">OM MIG </a>
+         <a href="index.html" class="mylink">HJEM</a>
+          <a href="portfolio.html" class="mylink">PROJEKTER</a>
+          <a href="ommig.html" class="mylink">OM MIG </a>
+        </nav>
         </nav>
       </div>
     </header>
     <main>
       <h1>TEMA 4</h1>
       <img src="img/flowers3.webp" alt="flowers" class="flowers" />
-      <div class="morespacebottom">
-        <details>
-          <summary>Løsning</summary>
-          <div class="content">
-            <p>
-              I dette projekt har jeg arbejdet med et Emergency Site, hvor
-              grundkoden og en style guide var udleveret. Sitet fungerede som en
-              slags sandkasse, hvor målet var at lære forskellige teknologier
-              inden for webdesign. Jeg valgte selv en nødsituation og
-              færdiggjorde de dele af sitet, som ikke var kodet færdigt, gennem
-              både visuelle løsninger og kode i CSS og JavaScript. Sitet består
-              af tre sider, og over fire uger har jeg designet og implementeret
-              en interaktiv infografik og logo, udviklet og stylet en
-              webformular, kodet en forside samt implementeret dark mode og
-              popups.
-            </p>
-          </div>
-        </details>
-        <details>
-          <summary>Process</summary>
-          <div class="content">
-            <h2>UGE 1 - infrografik</h2>
-            <p>
-              I dette tema valgte jeg at lave mit Emergency Site om en dårlig
-              strandferie med dårligt vejr. Jeg begyndte med at lave et
-              moodboard som gav mig inspiration til, hvordan min infografik
-              skulle se ud. Infografikken skulle forestille en person, der var
-              klar til strand og sol med en øl eller drink i hånden. Jeg
-              startede med at skitsere personen og tegnede den derefter færdig i
-              Adobe Illustrator
-            </p>
-            <p>
-              Efter infografikken var færdig i Illustrator, arbejdede vi videre
-              med JavaScript. Min idé var, at når man trykkede på en knap,
-              skulle enten hatten, drinken eller baderingen blive større
-              og/eller skifte farve. Samtidig ville jeg vise tekst på siden, der
-              forklarede hvert element og koblede det til sitets tema om dårligt
-              vejr.
-            </p>
-            <div class="dropdown">
-              <button class="dropdown-btn">Se mere →</button>
-              <div class="dropdown-content">
-                <div class="grid_1-22">
-                  <img src="img/moodboardtema4.webp" alt="moodboard" />
-                  <img src="img/tema4man.webp" alt="svg" />
+      <section class="morespacebottom">
+        <section>
+          <details>
+            <summary>Løsning</summary>
+            <div class="content">
+              <p>
+                I dette projekt har jeg arbejdet med et Emergency Site, hvor
+                grundkoden og en style guide var udleveret. Sitet fungerede som
+                en slags sandkasse, hvor målet var at lære forskellige
+                teknologier inden for webdesign. Jeg valgte selv en nødsituation
+                og færdiggjorde de dele af sitet, som ikke var kodet færdigt,
+                gennem både visuelle løsninger og kode i CSS og JavaScript.
+                Sitet består af tre sider, og over fire uger har jeg designet og
+                implementeret en interaktiv infografik og logo, udviklet og
+                stylet en webformular, kodet en forside samt implementeret dark
+                mode og popups.
+              </p>
+            </div>
+          </details>
+        </section>
+        <section>
+          <details>
+            <summary>Process</summary>
+            <div class="content">
+              <h2>UGE 1 - infrografik</h2>
+              <p>
+                I dette tema valgte jeg at lave mit Emergency Site om en dårlig
+                strandferie med dårligt vejr. Jeg begyndte med at lave et
+                moodboard som gav mig inspiration til, hvordan min infografik
+                skulle se ud. Infografikken skulle forestille en person, der var
+                klar til strand og sol med en øl eller drink i hånden. Jeg
+                startede med at skitsere personen og tegnede den derefter færdig
+                i Adobe Illustrator
+              </p>
+              <p>
+                Efter infografikken var færdig i Illustrator, arbejdede vi
+                videre med JavaScript. Min idé var, at når man trykkede på en
+                knap, skulle enten hatten, drinken eller baderingen blive større
+                og/eller skifte farve. Samtidig ville jeg vise tekst på siden,
+                der forklarede hvert element og koblede det til sitets tema om
+                dårligt vejr.
+              </p>
+              <div class="dropdown">
+                <button class="dropdown-btn">Se mere →</button>
+                <div class="dropdown-content">
+                  <div class="grid_1-22">
+                    <img src="img/moodboardtema4.webp" alt="moodboard" />
+                    <img src="img/tema4man.webp" alt="svg" />
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <h2>UGE 2 - webformular</h2>
-            <p>
-              I uge 2 arbejdede vi med webformularer og udviklede en
-              formularside, som blev integreret i Emergency-sitet. Min formular
-              indeholdt flere inputfelter, hvor brugeren kunne indtaste
-              personlige oplysninger, angive alder, give samtykke og indsende et
-              forslag. Formularen blev stylet med CSS med fokus på tydelighed og
-              overskuelighed, og jeg arbejdede med obligatoriske felter for at
-              sikre korrekt udfyldelse.
-            </p>
-            <div class="dropdown">
-              <button class="dropdown-btn">Se mere →</button>
-              <div class="dropdown-content">
-                <div>
-                  <img src="img/forms.webp" alt="forms" />
+              <h2>UGE 2 - webformular</h2>
+              <p>
+                I uge 2 arbejdede vi med webformularer og udviklede en
+                formularside, som blev integreret i Emergency-sitet. Min
+                formular indeholdt flere inputfelter, hvor brugeren kunne
+                indtaste personlige oplysninger, angive alder, give samtykke og
+                indsende et forslag. Formularen blev stylet med CSS med fokus på
+                tydelighed og overskuelighed, og jeg arbejdede med obligatoriske
+                felter for at sikre korrekt udfyldelse.
+              </p>
+              <div class="dropdown">
+                <button class="dropdown-btn">Se mere →</button>
+                <div class="dropdown-content">
+                  <div>
+                    <img src="img/forms.webp" alt="forms" />
+                  </div>
                 </div>
               </div>
-            </div>
-            <h2>UGE 3 - forsinden</h2>
-            <p>
-              I uge 3 arbejdede vi i Adobe Illustrator med at designe et logo.
-              Jeg valgte at lade logoet passe til strandtemaet og designede
-              derfor en palme inde i en rund cirkel. Samtidig arbejdede vi
-              videre med forsiden, hvor jeg udviklede popups og brugte AI til at
-              generere billeder og tekst. Her lærte jeg også om CSS-transitions
-              og styling af popups, og jeg valgte at gøre baggrunden bag
-              popupsen let sløret samt at lade overgangen væk fra popupsen ske
-              langsommere for en mere glidende effekt.
-            </p>
-            <div class="dropdown">
-              <button class="dropdown-btn">Se mere →</button>
-              <div class="dropdown-content">
-                <div>
-                  <img src="img/logotema4.webp" alt="logotema4" />
+              <h2>UGE 3 - forsinden</h2>
+              <p>
+                I uge 3 arbejdede vi i Adobe Illustrator med at designe et logo.
+                Jeg valgte at lade logoet passe til strandtemaet og designede
+                derfor en palme inde i en rund cirkel. Samtidig arbejdede vi
+                videre med forsiden, hvor jeg udviklede popups og brugte AI til
+                at generere billeder og tekst. Her lærte jeg også om
+                CSS-transitions og styling af popups, og jeg valgte at gøre
+                baggrunden bag popupsen let sløret samt at lade overgangen væk
+                fra popupsen ske langsommere for en mere glidende effekt.
+              </p>
+              <div class="dropdown">
+                <button class="dropdown-btn">Se mere →</button>
+                <div class="dropdown-content">
+                  <div>
+                    <img src="img/logotema4.webp" alt="logotema4" />
+                  </div>
                 </div>
               </div>
+              <h2>UGE 4 - Dark mode</h2>
+              <p>
+                I den sidste uge af temaet arbejdede vi med at style og
+                implementere et dark mode på sitet. Når brugeren trykkede på en
+                toggle-knap, skulle hele sitet skifte til dark mode, hvor vi
+                selv valgte farverne. Det skulle også være muligt at skifte
+                tilbage til lys tilstand. Dette blev implementeret ved hjælp af
+                CSS og JavaScript.
+              </p>
             </div>
-            <h2>UGE 4 - Dark mode</h2>
-            <p>
-              I den sidste uge af temaet arbejdede vi med at style og
-              implementere et dark mode på sitet. Når brugeren trykkede på en
-              toggle-knap, skulle hele sitet skifte til dark mode, hvor vi selv
-              valgte farverne. Det skulle også være muligt at skifte tilbage til
-              lys tilstand. Dette blev implementeret ved hjælp af CSS og
-              JavaScript.
-            </p>
-          </div>
-        </details>
-        <details>
-          <summary>Læring</summary>
+          </details>
+        </section>
+        <section>
+          <details>
+            <summary>Læring</summary>
+            <div class="content">
+              <p>
+                Gennem arbejdet med Emergency-sitet har jeg lært at omsætte tema
+                og visuelle idéer til konkrete designbeslutninger, herunder
+                logo, infografik og formularer, og implementere dem på sitet.
+                Jeg har også lært at gøre elementer interaktive med JavaScript,
+                arbejde med CSS-transitions, popups og dark mode samt
+                implementere responsivt design. Projektet har givet mig en bedre
+                forståelse af, hvordan design, interaktivitet og funktionalitet
+                hænger sammen og påvirker brugeroplevelsen.
+              </p>
+            </div>
+          </details>
+        </section>
+        <section>
+            <details>
+          <summary>Alle Links</summary>
           <div class="content">
-            <p>
-              Gennem arbejdet med Emergency-sitet har jeg lært at omsætte tema
-              og visuelle idéer til konkrete designbeslutninger, herunder logo,
-              infografik og formularer, og implementere dem på sitet. Jeg har
-              også lært at gøre elementer interaktive med JavaScript, arbejde
-              med CSS-transitions, popups og dark mode samt implementere
-              responsivt design. Projektet har givet mig en bedre forståelse af,
-              hvordan design, interaktivitet og funktionalitet hænger sammen og
-              påvirker brugeroplevelsen.
-            </p>
-          </div>
-        </details>
-        <details>
-          <summary>Links</summary>
-          <div class="content">
-            <p>Link til Figma</p>
-            <a
-              href="https://www.figma.com/design/DPYLHmsDKM8Es8CkKQlx6Z/Tema-4---sem1?node-id=0-1&p=f&t=wBbs4GdTY9CZKEi3-0"
-              >https://www.figma.com/design/DPYLHmsDKM8Es8CkKQlx6Z/Tema-4---sem1?node-id=0-1&p=f&t=wBbs4GdTY9CZKEi3-0</a
-            >
-            <p>Link til site</p>
-            <a
-              href="https://celineboejgaard.github.io/manonholidaywithoutsun-2/register.html"
-              >https://celineboejgaard.github.io/manonholidaywithoutsun-2/register.html</a
-            >
-          </div>
-        </details>
+             <div class="dropdown">
+        <button class="dropdown-btn">Link til Figma →</button>
+        <div class="dropdown-content">
+          <a
+                href="https://www.figma.com/design/DPYLHmsDKM8Es8CkKQlx6Z/Tema-4---sem1?node-id=0-1&p=f&t=wBbs4GdTY9CZKEi3-0" class="mylink2"
+                >https://www.figma.com/design/DPYLHmsDKM8Es8CkKQlx6Z/Tema-4---sem1?node-id=0-1&p=f&t=wBbs4GdTY9CZKEi3-0</a
+              >
+        </div>
+          <button class="dropdown-btn">Link til site →</button>
+        <div class="dropdown-content">
+           <a
+                href="https://celineboejgaard.github.io/manonholidaywithoutsun-2/register.html" class="mylink2"
+                >https://celineboejgaard.github.io/manonholidaywithoutsun-2/register.html</a
+              >
+             
+        </div>
       </div>
+       </div>
+        </details>
+        </section>
+      </section>
     </main>
     <footer>
       <section class="grid_1-3">
