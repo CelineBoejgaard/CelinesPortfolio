@@ -99,7 +99,7 @@ p {
   font-weight: 300;
   font-style: normal;
   color: #333333;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.5;
   margin: 50px;
 }
@@ -273,12 +273,38 @@ footer {
 }
 
 @media (min-width: 1200px) {
+  /* alle grids */
   .grid_1-3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5%;
     margin-left: 7%;
     margin-right: 7%;
+  }
+  .grid_1-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center; /* 🔥 vertical */
+    justify-items: center; /* 🔥 horizontal */
+    height: calc(100vh - 120px);
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: -7%;
+  }
+
+  .grid_1-22 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .grid_1-222 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -15%;
+    padding-bottom: 17%;
+    gap: 10%;
+    margin-left: 10%;
   }
 
   h1 {
@@ -300,16 +326,12 @@ footer {
     padding-top: 30px;
   }
 
-  .moremargin {
-    margin-left: 7%;
-  }
-
   p {
     font-family: "Inria Sans", sans-serif;
     font-weight: 300;
     font-style: normal;
     color: #333333;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.5;
     margin: 0;
     padding-bottom: 30px;
@@ -320,6 +342,11 @@ footer {
     margin: 0;
   }
 
+  .moremargin {
+    margin-left: 7%;
+    margin-top: -7%;
+  }
+
   .flowersonlyondesktop {
     display: block;
     max-width: 40%;
@@ -327,16 +354,6 @@ footer {
     padding-bottom: 30px;
     padding-left: 60%;
     rotate: -20deg;
-  }
-
-  .grid_1-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center; /* 🔥 vertical */
-    justify-items: center; /* 🔥 horizontal */
-    height: calc(100vh - 120px);
-    padding-left: 10%;
-    padding-right: 10%;
   }
 
   .everythingright {
@@ -354,14 +371,7 @@ footer {
     margin-top: -15%;
     margin-left: 10%;
   }
-  .grid_1-222 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: -15%;
-    padding-bottom: 17%;
-    gap: 10%;
-    margin-left: 10%;
-  }
+
   .flowers2 {
     size: 70%;
     margin-top: -15%;
@@ -377,16 +387,6 @@ footer {
     display: none;
   }
 
-  .grid_1-22 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-  .grid_1-2222 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
   .content {
     padding-right: 30%;
   }

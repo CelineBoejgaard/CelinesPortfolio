@@ -6,7 +6,6 @@
 
 .navn {
   display: block;
-
   width: 40%;
 }
 
@@ -39,13 +38,11 @@ h6 {
   font-weight: 300;
   font-style: normal;
   color: #fcf9f9;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 1.5;
   font-weight: normal;
   padding-bottom: 50px;
   margin: 0;
-  padding-left: 5%;
-  padding-right: 5%;
 }
 
 p {
@@ -53,13 +50,11 @@ p {
   font-weight: 300;
   font-style: normal;
   color: #333333;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.5;
   padding-top: 10px;
   padding-bottom: 60px;
   margin: 0;
-  padding-left: 5%;
-  padding-right: 5%;
 }
 
 h2 {
@@ -69,8 +64,6 @@ h2 {
   color: #333333;
   font-size: 30px;
   padding-top: 100px;
-  padding-left: 5%;
-  padding-right: 5%;
 }
 
 h3 {
@@ -78,11 +71,19 @@ h3 {
   font-weight: 400;
   font-style: normal;
   color: #fcf9f9;
-  font-size: 24px;
+  font-size: 30px;
   padding-bottom: 50px;
   padding-top: 100px;
-  padding-left: 5%;
-  padding-right: 5%;
+}
+
+ul {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #fcf9f9;
+  line-height: 1.6;
+  list-style-type: square;
+  padding-left: 1.2rem;
 }
 
 /* Burger */
@@ -135,6 +136,49 @@ footer {
 .flowerfooter {
   display: none;
 }
+/* Om mig forms */
+.button2 {
+  background-color: #f5eee5;
+  border: 2px solid #951415;
+  color: #49433c;
+  text-align: center;
+  text-decoration: none;
+  width: 25%;
+  padding: 15px;
+  margin-top: 20px;
+  place-items: center;
+  font-size: 24px;
+}
+.button2:hover {
+  background: #222;
+}
+
+.form-group {
+  display: grid;
+  gap: 2px;
+  margin-top: 1rem;
+}
+
+.error-message {
+  display: none;
+}
+
+.form-group:has(:user-invalid) {
+  input {
+    outline: 2px solid red;
+    border-color: darkred;
+  }
+  .error-message {
+    display: block;
+    color: darkred;
+  }
+}
+
+.form-group:has(:user-valid) input {
+  outline: 2px solid green;
+  border-color: darkgreen;
+}
+/* Om mig forms slut*/
 
 @media (min-width: 1200px) {
   .grid_1-3 {
@@ -145,6 +189,12 @@ footer {
     margin-right: 7%;
   }
 
+  .grid_1-22 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
   main {
     padding-left: 0; /* or adjust */
   }
@@ -153,19 +203,26 @@ footer {
     position: sticky; /* key: sticky inside main */
     top: 50%; /* vertical center */
     transform: translateY(-50%);
-    padding-left: 15%;
-    width: 40%;
+
+    width: 30%;
+    margin-left: 55%;
   }
 
   body {
     background-color: #f5eee5;
   }
 
-  .itemsright {
-    padding-left: 50%;
+  .itemsleft {
+    padding-right: 55%;
     padding-bottom: 10%;
-    margin-right: 7%;
-    margin-top: -25%;
+    padding-left: 7%;
+    margin-top: -30%;
+  }
+
+  .itemsleft2 {
+    padding-right: 55%;
+    padding-bottom: 10%;
+    padding-left: 7%;
   }
 
   h2 {
@@ -189,11 +246,11 @@ footer {
     width: 100%; /* full screen width */
     padding: 40px 0; /* vertical spacing */
     box-sizing: border-box;
-    height: 90vh;
-    padding-left: 50%;
-    padding-bottom: 7%;
+
+    padding-right: 55%;
+    padding-bottom: 12%;
     padding-top: 7%;
-    padding-right: 7%;
+    padding-left: 7%;
   }
 
   .flowers {
