@@ -313,7 +313,7 @@ details[open] summary::after {
   cursor: pointer;
   font-size: 20px;
   padding-left: 50px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 .dropdown-btn:hover {
   transform: scale(1.05);
@@ -464,6 +464,17 @@ footer {
     height: auto;
   }
 
+  .grid_1-22 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .grid_1-22 img {
+    max-width: 90%;
+    height: auto;
+  }
+
   h1 {
     margin-top: -5%;
   }
@@ -496,6 +507,10 @@ footer {
   a {
     padding-top: 25px;
     margin: 0;
+  }
+
+  .dropdown-btn {
+    padding-left: 25px;
   }
 
   .moremargin {
