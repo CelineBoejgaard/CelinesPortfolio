@@ -42,7 +42,6 @@ body {
 
 .grid_1-22 {
   display: block;
-  max-width: 90%;
 }
 
 .grid_1-2222 {
@@ -483,7 +482,7 @@ footer {
   }
 
   .grid_1-22 img {
-    max-width: 50%;
+    max-width: 60%;
     height: auto;
   }
 
@@ -528,7 +527,6 @@ footer {
   }
 
   .mylink4 {
-    font-size: 1rem;
     padding-left: 0;
   }
 
@@ -543,6 +541,10 @@ footer {
 
   .moremargin {
     margin-left: 7%;
+  }
+
+  .lessmargin {
+    margin-top: -5%;
   }
 
   .flowersonlyondesktop {
@@ -600,12 +602,12 @@ footer {
   }
 
   a {
-    display: inline-block; /* REQUIRED */
-    transition: transform 0.2s ease; /* smooth animation */
+    display: inline-block;
+    transition: transform 0.2s ease;
   }
 
   a:hover {
-    transform: scale(1.15); /* grow text */
+    transform: scale(1.15);
     font-weight: bold;
   }
   /* Burger */
@@ -616,7 +618,7 @@ footer {
 
   /* Group burger + menu */
   .nav-left {
-    position: relative; /* anchor for dropdown */
+    position: relative;
   }
 
   /* Burger */
@@ -634,8 +636,8 @@ footer {
     flex-direction: column;
     gap: 15px;
     position: absolute;
-    top: 100%; /* directly below burger */
-    left: 0; /* aligned LEFT */
+    top: 100%;
+    left: 0;
     background: #f5eee5;
     padding: 15px;
     margin-left: 60px;
@@ -667,7 +669,7 @@ footer {
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    justify-content: center; /* horizontal */
+    justify-content: center;
   }
   .flowerfooter {
     display: block;
