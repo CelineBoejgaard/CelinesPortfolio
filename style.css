@@ -63,9 +63,8 @@ h2 {
   font-weight: 400;
   font-style: normal;
   color: #333333;
-  font-size: 2rem;
-  padding-bottom: 50px;
-  padding-top: 100px;
+  font-size: 1.5rem;
+  padding-bottom: 40px;
   margin-left: 50px;
 }
 
@@ -366,7 +365,6 @@ details[open] summary::after {
   color: black;
   font-size: 20px;
   padding-bottom: 30px;
-  padding-left: 7%;
   display: inline-block;
   transition: transform 0.2s ease;
 }
