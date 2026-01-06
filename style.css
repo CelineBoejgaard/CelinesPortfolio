@@ -457,7 +457,11 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    max-width: 100vh;
+  }
+
+  .grid_1-4 img {
+    max-width: 50%;
+    height: auto;
   }
 
   h1 {
