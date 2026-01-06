@@ -46,6 +46,10 @@ body {
   display: block;
 }
 
+.grid_1-4 {
+  display: none;
+}
+
 .group1 {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -58,7 +62,6 @@ h1 {
   color: #333333;
   font-size: 40px;
   text-align: center;
-
   font-size: 2.5rem;
 }
 
@@ -68,7 +71,6 @@ h2 {
   font-style: normal;
   color: #333333;
   font-size: 1.5rem;
-  padding-bottom: 40px;
   margin-left: 50px;
 }
 
@@ -142,6 +144,7 @@ p {
   display: block;
   width: 40%;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 body {
@@ -344,7 +347,7 @@ details[open] summary::after {
   width: 100%;
 }
 .picture-slider img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   padding-left: 30px;
   padding-right: 30px;
