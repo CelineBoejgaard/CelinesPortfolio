@@ -10,12 +10,16 @@ body {
 }
 
 .flowers {
-  max-width: 80%;
+  max-width: 40%;
   rotate: -30deg;
   display: block;
   margin: auto;
   padding-bottom: 50px;
   padding-top: 50px;
+}
+
+.flowers2 {
+  max-width: 90%;
 }
 
 .flowersonlyondesktop {
@@ -245,7 +249,7 @@ summary {
   align-items: center;
   max-width: 100%;
   font-family: "inria", sans-serif;
-  font-size: 25px;
+  font-size: 1rem;
   border-top: #951415 solid 2px;
   padding: 20px;
 }
@@ -425,9 +429,15 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
   }
+  .grid_1-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 70%;
+  }
 
   h1 {
-    margin: 0;
+    margin-top: -5%;
   }
   h2 {
     margin: 0;
@@ -460,7 +470,6 @@ footer {
 
   .moremargin {
     margin-left: 7%;
-    margin-top: -7%;
   }
 
   .flowersonlyondesktop {
@@ -493,9 +502,13 @@ footer {
   }
 
   .flowers2 {
-    max-width: 50%;
+    max-width: 40%;
     margin-top: -20%;
     margin-left: 5%;
+  }
+
+  .flowers {
+    max-width: 20%;
   }
 
   body {
@@ -630,5 +643,5 @@ footer {
 
 .flowersother {
   width: 100%;
-  padding-top: 10px;
+  padding-top: 20px;
 }
