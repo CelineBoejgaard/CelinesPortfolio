@@ -41,7 +41,7 @@ body {
 }
 
 .grid_1-22 {
-  display: none;
+  display: block;
 }
 
 .grid_1-2222 {
@@ -82,7 +82,7 @@ h3 {
   font-style: normal;
   color: #fcf9f9;
   font-size: 1.5rem;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   padding-top: 100px;
 }
 
@@ -103,17 +103,6 @@ h5 {
   text-align: center;
 
   padding: 10px;
-}
-h6 {
-  font-family: "indie flower";
-  font-weight: 300;
-  font-style: normal;
-  color: #fcf9f9;
-  font-size: 1.5rem;
-  line-height: 1.5;
-  font-weight: normal;
-  padding-bottom: 50px;
-  margin: 0;
 }
 
 p {
@@ -252,8 +241,8 @@ ul {
   flex-direction: column;
   gap: 15px;
   position: absolute;
-  top: 100%; /* directly below burger */
-  left: 0; /* aligned LEFT */
+  top: 100%;
+  left: 0;
   background: #f5eee5;
   padding: 15px;
   margin-left: 20px;
@@ -323,7 +312,7 @@ details[open] summary::after {
   border: none;
   cursor: pointer;
   font-size: 20px;
-  padding-left: 25px;
+  padding-left: 50px;
   margin-top: 20px;
 }
 .dropdown-btn:hover {
@@ -419,6 +408,15 @@ footer {
 
 .textfooter {
   padding-left: 30px;
+  font-family: "indie flower";
+  font-weight: 300;
+  font-style: normal;
+  color: #fcf9f9;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: normal;
+  padding-bottom: 50px;
+  margin: 0;
 }
 
 @media (min-width: 1000px) {
