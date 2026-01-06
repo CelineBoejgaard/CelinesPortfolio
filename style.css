@@ -18,10 +18,6 @@ body {
   padding-top: 50px;
 }
 
-.flowers2 {
-  max-width: 80%;
-}
-
 .flowersonlyondesktop {
   display: none;
 }
@@ -113,7 +109,7 @@ p {
   font-weight: 300;
   font-style: normal;
   color: #333333;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.6;
   margin: 50px;
 }
@@ -356,6 +352,19 @@ details[open] summary::after {
   transition: transform 0.2s ease;
 }
 
+.mylink3 {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding-bottom: 30px;
+  padding-left: 7%;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
 .mylink2:hover {
   font-weight: bold;
   font-size: 24px;
@@ -482,7 +491,7 @@ footer {
   }
 
   .flowers2 {
-    max-width: 60%;
+    max-width: 50%;
     margin-top: -15%;
     margin-left: 5%;
   }
@@ -619,4 +628,5 @@ footer {
 
 .flowersother {
   width: 100%;
+  padding-top: 10px;
 }
