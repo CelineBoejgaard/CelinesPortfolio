@@ -42,6 +42,7 @@ body {
 
 .grid_1-22 {
   display: block;
+  max-width: 90%;
 }
 
 .grid_1-2222 {
@@ -115,6 +116,11 @@ p {
   margin: 50px;
 }
 
+.imgsmaller {
+  max-width: 90%;
+  height: auto;
+}
+
 .grid_1-222 {
   padding-bottom: 20px;
 }
@@ -174,11 +180,11 @@ ul {
 /* Om mig forms */
 .button2 {
   background-color: #f5eee5;
-  border: 2px solid #951415;
+  border: 1px solid #951415;
   color: #49433c;
   text-align: center;
   text-decoration: none;
-  padding: 15px 30px;
+  padding: 10px 30px;
   margin-top: 20px;
   place-items: center;
   font-size: 18px;
@@ -350,7 +356,7 @@ details[open] summary::after {
   padding: 2rem;
 }
 
-.mylink {
+.mylink4 {
   font-family: "Inria Sans", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -358,6 +364,18 @@ details[open] summary::after {
   color: black;
   font-size: 1rem;
   padding-bottom: 30px;
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.mylink {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  padding-bottom: 10px;
   display: inline-block;
   padding-left: 50px;
 }
@@ -396,7 +414,7 @@ details[open] summary::after {
   color: rgb(23, 7, 80);
 }
 
-.mylink:hover {
+.mylink4:hover {
   transform: scale(1.15);
   font-weight: bold;
 }
@@ -507,6 +525,11 @@ footer {
   a {
     padding-top: 25px;
     margin: 0;
+  }
+
+  .mylink4 {
+    font-size: 1rem;
+    padding-left: 0;
   }
 
   .mylink {
