@@ -457,7 +457,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    max-width: 50%;
+    max-width: 100vh;
   }
 
   h1 {
@@ -465,6 +465,7 @@ footer {
   }
   h2 {
     margin: 0;
+    padding-bottom: 20px;
   }
 
   h5 {
@@ -480,6 +481,7 @@ footer {
   h3 {
     margin: 0;
     padding-top: 30px;
+    padding-bottom: 20px;
   }
 
   p {
