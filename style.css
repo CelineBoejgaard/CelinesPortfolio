@@ -19,7 +19,7 @@ body {
 }
 
 .flowers2 {
-  max-width: 60%;
+  max-width: 80%;
 }
 
 .flowersonlyondesktop {
@@ -113,7 +113,7 @@ p {
   font-weight: 300;
   font-style: normal;
   color: #333333;
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1.6;
   margin: 50px;
 }
@@ -438,12 +438,6 @@ footer {
   }
 
   p {
-    font-family: "Inria Sans", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #333333;
-    font-size: 18px;
-    line-height: 1.5;
     margin: 0;
     padding-bottom: 30px;
   }
@@ -488,7 +482,7 @@ footer {
   }
 
   .flowers2 {
-    max-width: 70%;
+    max-width: 60%;
     margin-top: -15%;
     margin-left: 5%;
   }
