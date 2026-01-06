@@ -22,6 +22,10 @@ body {
   max-width: 90%;
 }
 
+.flowers3 {
+  padding-left: 50px;
+}
+
 .flowersonlyondesktop {
   display: none;
 }
@@ -54,7 +58,7 @@ h1 {
   color: #333333;
   font-size: 40px;
   text-align: center;
-  margin-left: 50px;
+
   font-size: 2.5rem;
 }
 
@@ -93,7 +97,8 @@ h5 {
   font-style: normal;
   font-size: 1.5rem;
   text-align: center;
-  margin-left: 50px;
+
+  padding: 10px;
 }
 h6 {
   font-family: "indie flower";
@@ -115,6 +120,18 @@ p {
   font-size: 0.9rem;
   line-height: 1.6;
   margin: 50px;
+}
+
+.grid_1-222 {
+  padding-bottom: 20px;
+}
+
+.everythingleft {
+  padding-bottom: 20px;
+}
+
+.everythingright {
+  padding-bottom: 20px;
 }
 
 .space {
@@ -145,7 +162,12 @@ body {
   padding-right: 55%;
   padding-bottom: 10%;
   padding-left: 7%;
+  padding-top: 50px;
 }
+.itemsleft3 {
+  padding-left: 50px;
+}
+
 ul {
   font-family: "Inria Sans", sans-serif;
   font-weight: 300;
