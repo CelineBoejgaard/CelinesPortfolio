@@ -250,7 +250,7 @@ summary {
   max-width: 100%;
   font-family: "inria", sans-serif;
   font-size: 1rem;
-  border-top: #951415 solid 2px;
+  border-top: #951415 solid 1px;
   padding: 20px;
 }
 
@@ -474,7 +474,7 @@ footer {
 
   .flowersonlyondesktop {
     display: block;
-    max-width: 20%;
+    max-width: 15%;
     margin: auto;
     padding-bottom: 30px;
     padding-left: 60%;
@@ -508,7 +508,7 @@ footer {
   }
 
   .flowers {
-    max-width: 20%;
+    max-width: 15%;
   }
 
   body {
